@@ -1,6 +1,6 @@
 .glow {
   font-size: 80px;
-  color: lime;
+  color: #d4c761;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -256,11 +256,60 @@ hr{
   color:yellow;
   height:4ex;
 } 
+footer{
+  margin:0.2%;
+  height:8ex;
+  font-size:3ex;
+  color:white;
+  background:black;
+  text-align:center;
+  bottom:0;
+  width:100%;
+}
+i{
+  color:white;
+  font-size:4ex;
+} 
+.card {
+  margin:0.4%;
+  float:left;
+  box-shadow: 0 4px 8px 0 white;
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.reviews{
+  border-radius:2ex;
+  margin:1%;
+  background:yellow;
+  text-align:center;
+  width:270px;
+  height:55ex;
+  border-style:solid;
+  border-color:red;
+
+}
+.pararev{
+  color:brown; 
+  font-size:2.8ex;
+}
+.head3{
+  font-size:3ex;
   
-  
-  
-  
-  
+}
+.speaker{
+  border-style:solid;
+  border-color:black;
+  width:110px;
+  border-radius:40%;
+}
+
+
   
   
       
