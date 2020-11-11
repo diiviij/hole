@@ -13,6 +13,21 @@
 }
 
 
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
 .sidenav {
   height: 100%; 
   width: 0; 
@@ -56,11 +71,16 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 .head2{
-  color:yellow;
-  font-size:5ex;
+      font-szie:8ex;
+     -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
+.head2:hover {
+    color: #fff;
+}
+.
+
 .but{
   position:center;
   text-align:center;
@@ -97,25 +117,101 @@
   width: 100%;
   padding: 20px;
 }
+.logo{
+    border-radius:40%;
+   margin:10%;
+   position: absolute;
+  left: 3%;
+  top: 0px;
+  width:58px;
+  height:38px;
+}
+p{
+    text-align:center;
+   color:White;
+  font-size:2.4ex;
+  
+}
+
+.headers{
+  margin:0.4%;
+ background:grey;
+ width:70ex; 
+ text-align:center; 
+}
+.paras{
+  color:white;
+  text-align:center;
+}
 
 
 
 
 
+.circle-register-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-top: 48px;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #6b6b6b;
+  border-radius: 50%;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+.circle-register-button:hover {
+  border-width: 2px;
+  border-color: #fff;
+  background-color: transparent;
+}
 
 
 
+.circle-register-button {
+  animation: rotation 8s infinite linear;
+}
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.link-4 w--current{
+  
+}
 
-
-
-
-
-
-
-
-
-
+.red{
+  font-size:8ex;
+  margin-left:45%;
+  position:center;
+  text-align:center;
+  
+}
+.colors{
+  margin:1%;
+  float:left;
+}
 
 
 
