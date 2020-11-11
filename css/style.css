@@ -666,14 +666,82 @@ body, button, input {
 }
 
 @media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
+  .nav-bar{
+    border-radius: 0px;
   }
-
-  .screen-body-item {
-    padding: 0;
+  .nav-bar {
+    background:black;
+    top: 0;
+    height: 2ex;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    font-size:1.5ex;
   }
+  
+  .burger {
+  display: none;
+  flex-direction: column;
+  padding-top: 25px;
+  gap: 6px;
+  height: 50px;
+  width: 50px;
 }
+    .mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+    
+
+  
+.footer{ 
+  font-size:5ex
+    text-align:center;
+    color:black;
+  background:white;
+    bottom;0;    
+}  
+}  
 @media screen and (max-width: 800px) {
   .nav-bar{
     border-radius: 0px;
